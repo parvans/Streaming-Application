@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import {useNavigate} from 'react-router-dom'
 import jwt_decode from "jwt-decode";
-
 export default function Cards({imageurl, title, description,id, category}) {
     const navigate = useNavigate();
     const decoded = jwt_decode(localStorage.getItem("UserToken"));
