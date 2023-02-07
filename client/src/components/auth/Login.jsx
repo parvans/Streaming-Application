@@ -74,7 +74,6 @@ function Login() {
             <NewAccount>
                 <A href="/register">Create a new account</A>
             </NewAccount>
-
         </Form>
     </Container>
 
