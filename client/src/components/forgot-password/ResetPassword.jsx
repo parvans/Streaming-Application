@@ -38,9 +38,7 @@ function ResetPassword() {
                     title: "Password Reset",
                     text: "Password reset successfully",
                   });
-        
                   navigate("/login");
-        
             }
           }).catch((err)=>{
             console.log(err);
