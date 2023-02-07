@@ -78,7 +78,6 @@ const Container = styled.div`
   background-size: cover;
 
 `
-
 const Form = styled.form`
   width: 400px;
   height: 500px;
