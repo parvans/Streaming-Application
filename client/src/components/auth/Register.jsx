@@ -3,7 +3,6 @@ import styled from "styled-components";
 import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
 import Swal from "sweetalert2";
-
 function Register() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
