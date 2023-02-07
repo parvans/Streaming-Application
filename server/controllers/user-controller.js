@@ -98,7 +98,6 @@ const verifyCode = async (req, res) => {
         }
     }
 }
-
 const resetPassword = async (req, res) => {
     const { email, password, confirmpassword } = req.body
     let user = await User.findOne({ email })
@@ -127,7 +126,6 @@ const getallUsers = async (req, res) => {
         return res.status(400).send
     }
 }
-
 const profile = async (req, res) => {
     try {
         let user = await User.findById({ _id: req.body.id})
