@@ -15,6 +15,7 @@ const registerUser = async (req, res) => {
     console.log(user)
     if (user) {
         return res.status(400).send('User already registered')
+        
     } else {
         try {
             let HashedPassword = await bcrypt.hash(password, 10)
