@@ -13,7 +13,6 @@ router.post('/reset-password', usercontroll.resetPassword)
 router.put('/update-user',usercontroll.updateProfile)
 router.get('/profile',auth,usercontroll.profile)
 router.post('/subscribe',usercontroll.subscribe)
-
 router.get('/getvedios', admincontroll.getVideos)
 router.get('/getvedio/:id', admincontroll.getVideo)
 
